@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react'
 import AppRouter from './routes/AppRouter'
-import Navbar from './component/navbar'
+
 import Footer from './component/Footer'
 import { useTheme } from './hooks/useTheme'
+import Navbar from './component/navbar'
 
 const App = () => {
   const { theme, toggleTheme } = useTheme();
